@@ -9,6 +9,14 @@
     "removeComments": true,
     "noResolve": false,
     "downlevelIteration": true,
-    "include": ["src/**/*", "pages/**/*"]
-  }
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "isolatedModules": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
