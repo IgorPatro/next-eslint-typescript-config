@@ -1,7 +1,7 @@
 import React from "react"
+import { AppProps } from "next/app"
 
-const MyApp = ({ Component, pageProps }) => {
-  return <Component {...pageProps} />
-}
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+const App = ({ Component, pageProps }: AppProps) => <Component {...pageProps} />
 
-export default MyApp
+export default App
