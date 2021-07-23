@@ -1,1 +1,1 @@
-This is Next.js project created to manage leads in pvleaders portal
+This is Next.js template configuration with typescript, eslint and prettier.
